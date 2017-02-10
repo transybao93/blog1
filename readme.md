@@ -1,9 +1,10 @@
 # Simple blog using Laravel Framework
 
 [Build status: **updating...**]
+
 [Version: **1.0.1**]
 
-:octopus::octopus:
+:octocat::octocat::octocat:
 
 Nothing to say...
 
