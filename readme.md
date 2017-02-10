@@ -4,7 +4,7 @@
 
 [Version: **1.0.1**]
 
-## :octocat::octocat::octocat:
+:octocat::ghost::christmas_tree:
 
 Nothing to say...
 
