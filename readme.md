@@ -1,7 +1,8 @@
 # Simple blog using Laravel Framework
 
 [Build status: **updating...**]
-[Version: **1.0.0**]
+[Version: **1.0.1**]
+
 :octopus::octopus:
 
 Nothing to say...
@@ -21,4 +22,6 @@ Sent an email to me if you interested of my works or just say "Hello"
 
 ## License
 
-No license...
+This is just some kind of study project.
+You can clone to your PC for study issues.
+This code (functions,...) in this project should not be presented in any commercial website.
