@@ -2,7 +2,7 @@
 
 [Build status: **updating...**]
 
-[Version: **1.0.1**]
+[Version: **1.2.5**]
 
 :octocat::ghost::christmas_tree:
 
