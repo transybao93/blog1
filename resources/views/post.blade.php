@@ -14,7 +14,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-
+<!-- Scripting -->
+<script src="js/jquery.min.js"></script>	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </head>
 <body>
 <!-- header -->
@@ -140,9 +142,5 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 <!-- footer -->
-
-<!-- Scripting -->
-<script src="js/jquery.min.js"></script>	
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </body>
 </html>

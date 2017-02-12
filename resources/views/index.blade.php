@@ -33,10 +33,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="head-nav">
 						<span class="menu"> </span>
 							<ul>
-								<li class="active"><a href="javascript:void(0)">Home</a></li>
-								<li><a href="index.html">Tags</a></li>
-								<li><a href="index.html">Categories</a></li>
-								<li><a href="about.html">About</a></li>
+								<li class="active"><a href="/">Home</a></li>
+								<li><a href="/">Tags</a></li>
+								<li><a href="/">Categories</a></li>
+								<li><a href="about">About</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 				</div>

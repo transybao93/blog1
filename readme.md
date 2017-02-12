@@ -2,7 +2,7 @@
 
 [Build status: **updating...**]
 
-[Version: **1.4.1**]
+[Version: **1.4.2**]
 
 :octocat::ghost::christmas_tree:
 
@@ -14,10 +14,10 @@ Still not have official document yet...
 
 ## Guidelines
 
-- Step 1: Run `git clone` command to **clone** app from git to local repository
-- Step 2: Run `composer install` command to create new vendor folder
-- Step 3: Copy `.env` file from other project
-- Step 4: Run `composer key:generate` command to create new key for Laravel projects
+- Step 1: Run `git clone` command to **clone** app from git to local repository.
+- Step 2: Run `composer install` command to create new vendor folder.
+- Step 3: Copy `.env` file from other project to this clone project.
+- Step 4: Run `composer key:generate` command to create new key for Laravel projects.
 - Step 5: Start your study...
 
 ## Contacts
