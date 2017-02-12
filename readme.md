@@ -14,10 +14,10 @@ Still not have official document yet...
 
 ## Guidelines
 
-- Step 1: Run 'git clone <repository name>' command to **clone** app from git to local repository
-- Step 2: Run 'composer install' command to create new vendor folder
-- Step 3: Copy '.env' file from other project
-- Step 4: Run 'composer key:generate' command to create new key for Laravel projects
+- Step 1: Run `git clone` command to **clone** app from git to local repository
+- Step 2: Run `composer install` command to create new vendor folder
+- Step 3: Copy `.env` file from other project
+- Step 4: Run `composer key:generate` command to create new key for Laravel projects
 - Step 5: Start your study...
 
 ## Contacts
