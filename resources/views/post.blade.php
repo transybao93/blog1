@@ -13,17 +13,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<script src="js/jquery.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
 <!-- header -->
 	<div class="banner">
   	    <div class="container">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+				<a href="Javascript:void(0)"><img src="images/logo.png" class="img-responsive" alt="" /></a>
 			</div>
 		</div> 
 			<div class="header-bottom">
@@ -142,5 +140,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 <!-- footer -->
+
+<!-- Scripting -->
+<script src="js/jquery.min.js"></script>	
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 </body>
 </html>

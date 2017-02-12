@@ -7,23 +7,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Catatan Si Boy a Bootstarp  Website Template | Home :: w3layouts</title>
+<title>Blog cá nhân</title>
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
 <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
+<!-- Scripting -->
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,800,700' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-<script src="js/jquery.min.js"></script>				
+<script src="js/jquery.min.js"></script>
+
+				
 </head>
 <body>
 <!-- header -->
 	<div class="banner">
   	    <div class="container">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+				<a href="javascript:void(0)"><img src="images/logo.png" class="img-responsive" alt="" /></a>
 			</div>
 		</div> 
 			<div class="header-bottom">
@@ -31,9 +33,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					<div class="head-nav">
 						<span class="menu"> </span>
 							<ul>
-								<li class="active"><a href="index.html">Home</a></li>
-								<li><a href="about.html">About</a></li>
+								<li class="active"><a href="javascript:void(0)">Home</a></li>
+								<li><a href="index.html">Tags</a></li>
 								<li><a href="index.html">Categories</a></li>
+								<li><a href="about.html">About</a></li>
 								<div class="clearfix"> </div>
 						</ul>
 				</div>
@@ -46,9 +49,9 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 						});
 					</script>
 				<!-- script-for-nav -->		
-					<div class="search-box">
+					<div class="search-box" style="width:300px">
 				        <form>
-				            <input type="text" name="s" class="textbox" value="search something" onfocus="this.value = '';" onblur="if
+				            <input type="text" name="s" class="textbox" style="text-indent:10px; font-size:15px" value="search something" onfocus="this.value = '';" onblur="if
 				                  	(this.value == '') {this.value = 'search something';}">
 				            <input type="submit" value>
 				        </form>
@@ -126,5 +129,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		</div>
 	</div>
 <!-- footer -->
+
 </body>
 </html>

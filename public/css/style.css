@@ -9,7 +9,7 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 html,body{
 	background: url(../images/cream.jpg);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 }
 body a{
     transition:0.5s all;
@@ -87,7 +87,7 @@ body a{
 	text-decoration:none;
 	font-size: 1.4em;
 	font-weight:400;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	margin:10px 30px 10px 30px;
 	display:block;		  
 }	
@@ -118,7 +118,7 @@ i.aeroplane{
 	font-size:1em;
 	font-weight:700;
 	color:#141414;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-decoration:none;
 }
 .travelling1 h1 a:hover{
@@ -128,7 +128,7 @@ i.aeroplane{
 	font-size:1em;
 	font-weight:700;
 	color:#787878;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 	text-decoration:none;
 }
@@ -139,7 +139,7 @@ i.aeroplane{
 	font-size:1em;
 	font-weight:700;
 	color:#FF761A;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 }
 .travelling2 h3{
@@ -147,7 +147,7 @@ i.aeroplane{
 	font-weight:700;
 	color:#fff;
 	background:#FF761A;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:center;
 	padding:20px 10px;
 }
@@ -155,14 +155,14 @@ i.aeroplane{
 	font-size:1.3em;
 	font-weight:400;
 	color:#7D7D7D;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	margin: 1em 0em 2em;
 }
 .travelling2  a{
 	font-size:1.3em;
 	font-weight:400;
 	color:#7D7D7D;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	margin: 0em -0.5em 0em;
 	text-decoration:none;
 }
@@ -215,7 +215,7 @@ a.more {
 	font-style:italic;
 	color:#291C12;
 	background:#FFF2E8;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 	padding: 1em 0.5em;
 }
@@ -223,14 +223,14 @@ a.more {
 	font-size:3em;
 	font-weight:700;
 	color:#141414;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 }
 .billgates1 h5  a{
 	font-size:1em;
 	font-weight:700;
 	color:#787878;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 	text-decoration:none;
 }
@@ -241,7 +241,7 @@ a.more {
 	font-size:1em;
 	font-weight:700;
 	color:#FF761A;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 }
 .billgates2 h3{
@@ -249,7 +249,7 @@ a.more {
 	font-weight:700;
 	color:#fff;
 	background:#FF761A;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:center;
 	padding:20px 10px;
 }
@@ -257,7 +257,7 @@ a.more {
 	font-size:1.3em;
 	font-weight:400;
 	color:#7D7D7D;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	margin: 0em -0.5em 0em;
 	text-decoration:none;
 }
@@ -267,7 +267,7 @@ a.more {
 .lequotes h4{
 	font-size:4em;
 	font-style:italic;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Comfortaa', cursive;
 	color:#787878;
 	text-align:center;
 	margin: 2em 0em 0em;
@@ -277,7 +277,7 @@ a.more {
 	font-weight:400;
 	font-style:italic;
 	color:#7D7D7D;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:center;
 	margin: 1em 0em 4em;
 }
@@ -354,14 +354,14 @@ i.twt:hover{
 	font-size:1.2em;
 	font-weight:400;
 	color:#7D7D7D;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	margin: 1em 0em 2em;
 }
 span{
 	font-size:1em;
 	font-weight:700;
 	color:#7D7D7D;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 }
 .comments {
 	margin: 3em 0em;
@@ -370,14 +370,14 @@ span{
 	font-size:2em;
 	font-weight:400;
 	color:#1C1F19;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 }
 .comments p{
 	font-size:1.3em;
 	font-weight:400;
 	color:#C6C6C6;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Comfortaa', sans-serif;
 	text-align:left;
 }
  .comments form input[type="text"] {
@@ -1090,7 +1090,7 @@ a.load {
 	margin: 1em 0em;
 }
 .search-box form input[type="text"]{
-	font-size:13px;
+	font-size:16px;
 }
 .catagerious-right h4 a {
 	font-size: 0.8em;
