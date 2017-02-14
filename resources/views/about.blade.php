@@ -1,67 +1,15 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Catatan Si Boy a Bootstarp  Website Template | Home :: w3layouts</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href='http://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'>
-<!-- Scripting -->
-<script src="js/jquery.min.js"></script>	
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
-</head>
-<body>
-<!-- header -->
-	<div class="banner">
-  	    <div class="container">
-			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
-			</div>
-		</div> 
-			<div class="header-bottom">
-				<div class="container">
-					<div class="head-nav">
-						<span class="menu"> </span>
-							<ul>
-								<li><a href="/">Home</a></li>
-								<li><a href="/">Tags</a></li>
-								<li><a href="/">Categories</a></li>
-								<li class="active"><a href="about">About</a></li>
-								<div class="clearfix"> </div>
-						</ul>
-				</div>
-				<!-- script-for-nav -->
-					<script>
-						$( "span.menu" ).click(function() {
-						  $( ".head-nav ul" ).slideToggle(300, function() {
-							// Animation complete.
-						  });
-						});
-					</script>
-				<!-- script-for-nav -->		
-					<div class="search-box" style="width:300px">
-				        <form>
-				            <input type="text" name="s" class="textbox" style="text-indent:10px; font-size:15px" value="search something" onfocus="this.value = '';" onblur="if
-				                  	(this.value == '') {this.value = 'search something';}">
-				            <input type="submit" value>
-				        </form>
-		            </div>
-						<div class="clearfix"> </div>
-				</div>
-			</div>
-	</div>
-<!-- header -->
-<!-- content -->
-	<div class="container">
-		<div class="content">
+@extends('template')
+@section('title', 'About')
+@section('aboutMenu')
+	<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="tags">Tags</a></li>
+			<li ><a href="/">Categories</a></li>
+			<li class="active"><a href="about">About</a></li>
+			<div class="clearfix"> </div>
+	</ul>
+@endsection
+@section('aboutTemplate')
 	<!-- about -->
 	<div class="about">
 		<div class="col-md-5">
@@ -83,22 +31,4 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				{{-- <a class="more" href="#">Read More</a> --}}
 			</div>
 	<!-- about -->
-		</div>	
-	</div>
-<!-- content -->
-<!-- footer -->
-	<div class="footer">
-		<div class="container">
-			<p>Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
-			<div class="social">
-				<ul>
-					<li><a href="#"><i class="fb"> </i></li></a>
-					<li><a href="#"><i class="twt"> </i></li></a>
-						<div class="clearfix"></div>
-				</ul>
-			</div>
-		</div>
-	</div>
-<!-- footer -->
-</body>
-</html>
+@endsection

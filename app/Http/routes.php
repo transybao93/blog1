@@ -11,14 +11,22 @@
 |
 */
 
+/**
+ * route default
+ */
 Route::get('/', function () {
     return view('index');
 });
 
+/**
+ * route for about page
+ */
 Route::get('about', function() {
     return view('about');
 });
-
-// Route::get('post/{id}', function() {
-//     //
-// });
+/**
+ * route for tag page
+ */
+Route::get('tags', function() {
+    return view('tags');
+});
