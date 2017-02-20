@@ -2,7 +2,7 @@
 
 [Build status: **updating...**]
 
-[Version: **1.4.5**]
+[Version: **2.0.0**]
 
 :octocat::ghost::christmas_tree:
 
@@ -19,6 +19,10 @@ Still not have official document yet...
 - Step 3: Copy `.env` file from other project to this clone project.
 - Step 4: Run `composer key:generate` command to create new key for Laravel projects.
 - Step 5: Start your study...
+
+## Versions
+	### 2.0.0
+	Big updates
 
 ## Contacts
 
