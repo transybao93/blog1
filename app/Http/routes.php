@@ -14,9 +14,7 @@
 /**
  * route default
  */
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'PostController@index');
 
 /**
  * route for about page
@@ -25,6 +23,9 @@ Route::get('about', function() {
     return view('about');
 });
 
+/**
+ * Resources
+ */
 Route::resource('post', 'PostController');
 Route::resource('tag', 'TagController');
 Route::resource('type', 'TypeController');

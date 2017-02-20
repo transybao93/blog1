@@ -18,8 +18,8 @@ class PostController extends Controller
      */
     public function index()
     {
-        $post = Post::all();
-        return view('post.index', ['post' => $post]);
+        $post = Post::get();
+        return view('index')->with('post', $post);
     }
 
     /**
@@ -51,7 +51,9 @@ class PostController extends Controller
      */
     public function show($id)
     {
-        //
+        $data = Post::findOrFail($id);
+        return view('postDetail')->with('p', $data);
+        // return view('postDetail');
     }
 
     /**
@@ -86,5 +88,6 @@ class PostController extends Controller
     public function destroy($id)
     {
         //
+        // return 'Deleted';
     }
 }

@@ -8,12 +8,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html>
 <head>
 <title>@yield('title') | Blog cá nhân</title>
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="../css/style.css" rel="stylesheet" type="text/css" media="all" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="css/search.css">
+<link rel="stylesheet" href="../css/search.css">
 
 
 </head>
@@ -22,7 +22,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="banner">
   	    <div class="container">
 			<div class="logo">
-				<a href="index.html"><img src="images/logo.png" class="img-responsive" alt="" /></a>
+				<a href="index.html"><img src="../images/logo.png" class="img-responsive" alt="" /></a>
 			</div>
 		</div> 
 			<div class="header-bottom">
@@ -32,6 +32,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 							@yield('indexMenu')
 							@yield('aboutMenu')
 							@yield('tagMenu')
+							@yield('pDetailMenu')
 				</div>
 				
 					<div class="search-box" style="width:300px">
@@ -50,16 +51,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<div class="container">
 		<div class="content">
 
+			
 			@yield('aboutTemplate')
 			@yield('indexTemplate')
 			@yield('tagTemplate')
-
-			  <img class="b-lazy"
-				 src="images/01.png"
-				 data-src="images/book.jpg"
-				 data-src-small="images/01.png"
-				 alt="Image description" />
-
+			@yield('pDetailTemplate')
 				 
 		</div>	
 	</div>
@@ -80,7 +76,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- footer -->
 
 <!-- Scripting -->
-<script src="js/jquery.min.js"></script>
+<script src="../js/jquery.min.js"></script>
 <!-- script-for-nav -->
 	<script>
 		$( "span.menu" ).click(function() {

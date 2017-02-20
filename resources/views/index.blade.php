@@ -11,27 +11,31 @@
 @endsection
 @section('indexTemplate')
 	{{-- Single post --}}
-	{{-- @foreach($post as $p)
-		<p>{{$p->pTitle}}</p>
-	@endforeach --}}
-	<a href="single.html"><img src="images/img2.jpg" class="img-responsive" alt="" /></a>
-			<i class="aeroplane"> </i>
-	<div class="travelling">
-			<div class="col-md-10 travelling1">
-				<h1><a href="single.html">Traveling to Cilacap Kota Cahaya</a></h1>
-				<h5>by <a href="#">Samidi ,</a> 27 July 2013 ,<a href="#">Traveling</a></h5>
-				<p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
-			</div>
-			<div class="col-md-1 travelling2">
-				<h3>2</h3>
-				<a href="#">comments</a>
-			</div>
-				<div class="clearfix"> </div>
-	</div>
+	@foreach($post as $p)
+		
+				
+		<div class="travelling">
+				<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+					<a href="post/{{$p->id}}"><img src="../images/{{$p->pMainImageLink}}" class="img-responsive" alt="" /></a>
+				</div>
+				<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8 travelling1">
+					<h1><a href="post/{{$p->id}}">{{$p->pTitle}}</a></h1>
+					<h5>by <a href="#">{{$p->pAuthor}} ,</a> {{$p->created_at}} ,<a href="#">Traveling</a></h5>
+					
+				</div>
+				
+				{{-- <div class="col-md-1 travelling2">
+					<h3>2</h3>
+					<a href="#">comments</a>
+				</div> --}}
+					<div class="clearfix"> </div>
+		</div>
 
-	<div class="loadmore">
-			<a class="more" href="single.html">Read More</a>
-	</div>
+		<div class="loadmore">
+				<a class="more" href="post/{{$p->id}}">Read More</a>
+				{{-- <a class="more" href="pDetail/{{$p->id}}">Read More</a> --}}
+		</div>
+	@endforeach
 	{{-- Single post --}}
 
 	<div class="loadmore1">
