@@ -9,7 +9,7 @@ ul, ol {margin: 0;}
 p {margin: 0;}
 @font-face {
   font-family: 'Comfortaa';
-  src: url('../fonts/Comfortaa-Regular.ttf');
+  src: url('../fonts/Comfortaa-Regular.ttf')format('truetype');
 }
 html,body{
 	background: url(../images/cream.jpg);
