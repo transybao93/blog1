@@ -24,9 +24,7 @@ Route::get('/', function () {
 Route::get('about', function() {
     return view('about');
 });
-/**
- * route for tag page
- */
-Route::get('tags', function() {
-    return view('tags');
-});
+
+Route::resource('post', 'PostController');
+Route::resource('tag', 'TagController');
+Route::resource('type', 'TypeController');

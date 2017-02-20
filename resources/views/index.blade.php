@@ -2,8 +2,8 @@
 @section('title', 'Home')
 @section('indexMenu')
 	<ul>
-			<li class="active"><a href="/">Home</a></li>
-			<li><a href="tags">Tags</a></li>
+			<li class="active"><a href="post">Home</a></li>
+			<li><a href="tag">Tags</a></li>
 			<li><a href="/">Categories</a></li>
 			<li><a href="about">About</a></li>
 			<div class="clearfix"> </div>
