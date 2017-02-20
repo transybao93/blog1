@@ -2,10 +2,10 @@
 @section('title', 'About')
 @section('aboutMenu')
 	<ul>
-			<li><a href="/">Home</a></li>
-			<li><a href="tags">Tags</a></li>
+			<li><a href="post">Home</a></li>
+			<li><a href="tag">Tags</a></li>
 			<li ><a href="/">Categories</a></li>
-			<li class="active"><a href="about">About</a></li>
+			<li class="active"><a href="javascript:void(0)">About</a></li>
 			<div class="clearfix"> </div>
 	</ul>
 @endsection

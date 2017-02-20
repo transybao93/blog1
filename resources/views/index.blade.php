@@ -2,7 +2,7 @@
 @section('title', 'Home')
 @section('indexMenu')
 	<ul>
-			<li class="active"><a href="post">Home</a></li>
+			<li class="active"><a href="javascript:void(0)">Home</a></li>
 			<li><a href="tag">Tags</a></li>
 			<li><a href="/">Categories</a></li>
 			<li><a href="about">About</a></li>
@@ -10,6 +10,10 @@
 	</ul>
 @endsection
 @section('indexTemplate')
+	{{-- Single post --}}
+	{{-- @foreach($post as $p)
+		<p>{{$p->pTitle}}</p>
+	@endforeach --}}
 	<a href="single.html"><img src="images/img2.jpg" class="img-responsive" alt="" /></a>
 			<i class="aeroplane"> </i>
 	<div class="travelling">
@@ -24,7 +28,23 @@
 			</div>
 				<div class="clearfix"> </div>
 	</div>
-	<div class="lequotes">
+
+	<div class="loadmore">
+			<a class="more" href="single.html">Read More</a>
+	</div>
+	{{-- Single post --}}
+
+	<div class="loadmore1">
+			<a class="load" href="#">load More</a>	
+	</div>
+@endsection
+
+
+
+
+
+{{-- quotes --}}
+	{{-- <div class="lequotes">
 		
 			<div class="col-md-12">
 				<a class="more" href="single.html">Read More</a>
@@ -51,11 +71,5 @@
 					<h4>“Lorem Ipsum dolor sit amet”</h4>
 					<h6>Bill Gates</h6>
 				</div>
-	</div>	
-	<div class="loadmore">
-			<a class="more" href="single.html">Read More</a>
-	</div>
-	<div class="loadmore1">
-			<a class="load" href="#">load More</a>	
-	</div>
-@endsection
+	</div>	 --}}
+	{{-- Quotes --}}

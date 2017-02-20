@@ -3,7 +3,7 @@
 @section('tagMenu')
 	<ul>
 			<li><a href="/">Home</a></li>
-			<li class="active"><a href="tags">Tags</a></li>
+			<li class="active"><a href="javascript:void(0)">Tags</a></li>
 			<li><a href="/">Categories</a></li>
 			<li><a href="about">About</a></li>
 			<div class="clearfix"> </div>
