@@ -20,11 +20,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
 <!-- header -->
 	<div class="banner">
-  	    <div class="container">
-			<div class="logo">
-				<a href="index.html"><img src="../images/logo.png" class="img-responsive" alt="" /></a>
-			</div>
-		</div> 
+  	  <div class="container">
+				<div class="logo">
+					<img src="../images/logo.png" class="img-responsive" alt="" />
+				</div>
+			</div> 
 			<div class="header-bottom">
 				<div class="container">
 					<div class="head-nav">
@@ -66,7 +66,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 			<p>Template by <a href="http://w3layouts.com" target="_blank"> w3layouts</a></p>
 			<div class="social">
 				<ul>
-					<li><a href="#"><i class="fb"> </i></li></a>
+					<li><a href="https://www.facebook.com/sybao93"><i class="fb"> </i></li></a>
 					<li><a href="#"><i class="twt"> </i></li></a>
 						<div class="clearfix"></div>
 				</ul>
